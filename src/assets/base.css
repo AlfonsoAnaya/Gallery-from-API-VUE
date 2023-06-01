@@ -1,0 +1,27 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Signika:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #bbe998bb;
+  --color-btn: #68d463e8;
+  --color-white: whitesmoke;
+  --color-font-dark: rgb(29, 27, 27, .8);
+  --font-title: 'Fredoka One', sans-serif;
+  --font-secondary: 'Signika', sans-serif;
+}
+
+/* semantic color variables for this project */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-font-dark);
+}
