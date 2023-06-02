@@ -37,6 +37,7 @@ defineProps<{
     width: 100%;
     height: 18em;
     overflow: hidden;
+    transition: 0.3s ease;
 }
 
 .image-container:hover {

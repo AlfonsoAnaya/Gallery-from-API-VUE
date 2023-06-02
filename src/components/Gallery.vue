@@ -36,7 +36,7 @@ import PhotoCard from "./PhotoCard.vue";
 </script>
 
 <template>
-      <div class="input-bar">
+   <!--<div class="input-bar">
         <p>theme is {{ theme }}</p>
         <p>number of photos is {{ numberOfPhotos }}</p>
         <form class="form" id="form">
@@ -45,6 +45,7 @@ import PhotoCard from "./PhotoCard.vue";
             <button class="btn" @click="fetchData">Search</button>
         </form>
     </div>
+  -->
     <div class="grid-container">
     <PhotoCard v-for="item in photosArr"
       :photographer="item.user.name"

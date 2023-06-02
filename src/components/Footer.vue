@@ -3,7 +3,7 @@
 
 <template>
     <footer>
-        <p>Website by: <a href="https://alfonsoanaya.netlify.app/"> Alfonso Anaya</a></p>
+        <p>Website by: <a href="https://alfonsoanaya.netlify.app/" target="_blank"> Alfonso Anaya</a></p>
     </footer>
 
 </template>
