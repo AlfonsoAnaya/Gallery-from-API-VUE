@@ -19,9 +19,11 @@ defineProps<{
 
     </div>
     <figcaption>
-        <p class="author">Photo by: {{ photographer }} -
-            <a class="link" target="blank" :href="hrefPhotographer">Unsplash profile</a>
+        
+        <p class="author">Photo by: 
+            <a class="link" target="blank" :href="hrefPhotographer">{{ photographer }}</a>
         </p>
+ 
         <p class="views"> Views: {{views}}</p>
     </figcaption>
 </div>
